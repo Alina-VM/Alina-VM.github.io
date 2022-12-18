@@ -130,6 +130,9 @@ body {
 .header__item:last-child {
   margin-right: 0px;
 }
+.header__item:last-child a:hover {
+  color: green;
+}
 .header__item-first {
   font-weight: 700;
   margin-right: 40px;
@@ -140,6 +143,10 @@ body {
   color: white;
   padding: 10px;
   border-radius: 10px;
+  transition: background-color 0.2s;
+}
+.header__registration:hover {
+  background-color: #086ea8;
 }
 .header__registration a {
   color: white;
@@ -223,6 +230,10 @@ body {
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 30px;
+  transition: background-color 0.2s;
+}
+.content__button:hover {
+  background-color: #086ea8;
 }
 
 .form-registration__row {
